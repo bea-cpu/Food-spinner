@@ -4,7 +4,7 @@ import { useFocusEffect } from '@react-navigation/native';
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = "http://192.168.254.135:3000/api";
+const API_URL = "https://backend-project-wktw.onrender.com";
 
 export default function HomeScreen({ route, navigation }) {
   const { user } = route.params;

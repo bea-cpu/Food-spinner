@@ -58,4 +58,4 @@ router.delete("/deleteFood/:id", async (req, res) => {
   }
 });
 
-export default router;
+module.exports = router

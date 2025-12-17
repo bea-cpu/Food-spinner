@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert, ActivityIndicator, Platform } from 'react-native';
 import axios from 'axios';
 
-const API_URL = "http://192.168.254.135:3000/api";
+const API_URL = "https://backend-project-wktw.onrender.com";
 
 export default function RegisterScreen({ navigation }) {
   const [username, setUsername] = useState('');

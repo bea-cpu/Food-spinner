@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "5fb10c3f-1856-4547-9436-41ebf67bf215"
+      }
+    },
+    "android": {
+      "package": "com.group2.foodspinnerapp"
+    }
+  }
+}

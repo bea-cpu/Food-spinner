@@ -2,7 +2,7 @@ import React, { useState, useRef } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Animated, Easing, Alert } from 'react-native';
 import axios from 'axios';
 
-const API_URL = "http://192.168.254.135:3000/api";
+const API_URL = "https://backend-project-wktw.onrender.com";
 const WHEEL_SIZE = 300;
 
 export default function SpinScreen({ route, navigation }) {

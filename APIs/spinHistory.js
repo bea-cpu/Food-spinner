@@ -37,4 +37,4 @@ router.get("/getSpin-history/:userId", async (req, res) => {
   }
 });
 
-export default router;
+module.exports = router

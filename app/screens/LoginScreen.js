@@ -3,7 +3,7 @@ import { View, Text, TextInput, TouchableOpacity, StyleSheet, Alert, ActivityInd
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = "http://192.168.254.135:3000/api";
+const API_URL = "https://backend-project-wktw.onrender.comm";
 
 export default function LoginScreen({ navigation }) {
   const [email, setEmail] = useState('');
